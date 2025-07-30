@@ -6,6 +6,9 @@ Extracting Original CSV Data:
 By using os.path.getsize(exe_file), it records the size of the .exe file, allowing it to "skip" over this part in the combined file.
 It then seeks to this size within combined_file2.csv and reads the remaining bytes, which correspond to the CSV content.
 Finally, it writes these extracted bytes to extracted_file.csv.
+
+
+Malware Analysis TOOL:
 This project is a feature-rich, AI-assisted static malware analysis toolkit designed for malware analysts, reverse engineers, and cybersecurity researchers. It provides a graphical user interface (GUI) built with PyQt5, enabling intuitive interaction with various malware analysis capabilities. The tool is capable of parsing, analyzing, and generating reports from Windows PE (Portable Executable) files, making it ideal for use in malware labs, SOCs, and incident response environments.
 
 🧠 Key Features:
